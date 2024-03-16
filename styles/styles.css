@@ -1,0 +1,40 @@
+* {
+  --leos-hintergrundfarbe: rgb(0, 0, 255);
+}
+
+body {
+  background-color: blue;
+}
+
+h1 {
+  margin: 10px;
+}
+
+.special-h1 {
+  background-color: rgb(15, 173, 160);
+}
+
+.heading-div {
+  background-color: turquoise;
+  display: flex;
+  gap: 30px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  background-color: rgb(58, 181, 230);
+  border: 7px solid black;
+  border-radius: 15px;
+  padding: 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover {
+  background-color: rgb(19, 139, 119);
+  transform: translateX(20px);
+}
